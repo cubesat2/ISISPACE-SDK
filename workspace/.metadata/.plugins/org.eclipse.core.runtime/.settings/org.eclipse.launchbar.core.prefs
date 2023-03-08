@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:hal-demo-debug,org.eclipse.launchbar.core.descriptorType.default\:hal-demo-release,org.eclipse.launchbar.core.descriptorType.default\:Jlink-samg20-GDB,org.eclipse.launchbar.core.descriptorType.default\:isis-obc-first-project-debug,org.eclipse.launchbar.core.descriptorType.default\:isis-obc-first-project-release,org.eclipse.launchbar.core.descriptorType.default\:Jlink,org.eclipse.launchbar.core.descriptorType.default\:satellite-subsystems-demo,org.eclipse.launchbar.core.descriptorType.default\:satellite-subsystems-release
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Jlink-samg20-GDB/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Jlink/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Jlink/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:hal-demo-debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:isis-obc-first-project-debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:satellite-subsystems-demo/activeLaunchMode=debug

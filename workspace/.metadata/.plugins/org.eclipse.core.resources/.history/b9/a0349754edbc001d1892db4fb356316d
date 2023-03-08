@@ -48,20 +48,18 @@ FileSystemResult fileWrite(char* file_name, void* element, int size)
 		return FS_FAT_API_FAIL;
 	}
 
-	unsigned int epochTime;
+	int epochTime;
 	Time_getUnixEpoch(&epochTime);
 
-	size_t actual = f_write(&epochTime, sizeof(epochTime), 1,  file);
-	actual += f_write(element, size, 1, file);
+	int actuall = f_write(&epochTime, sizeof(epochTime), 1,  file);
+	actuall += f_write(element, size, 1, file);
 	
-	if (actual != sizeof(epochTime) + (size_t)size){
+	if (actuall != size + sizeof(epochTime)){
 		return FS_FAIL;
 	}
 	
 	return FS_SUCCSESS;
 }
-
-
 FileSystemResult InitializeFS()
 {
 	

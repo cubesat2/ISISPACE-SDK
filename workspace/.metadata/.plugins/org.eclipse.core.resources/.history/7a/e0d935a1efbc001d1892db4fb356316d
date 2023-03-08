@@ -46,7 +46,6 @@ void taskMain(void* parameters)
 		LED_wave(1);
 		LED_waveReverse(1);
 
-		printf("\n\rFirst Project mHZ\n\r");
 		vTaskDelay(500 / portTICK_RATE_MS);
 	}
 }

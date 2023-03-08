@@ -1,0 +1,11 @@
+09:08:45 **** Incremental Build of configuration Debug for project isis-obc-first-project ****
+make -r all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "isis-obc-first-project.elf"
+   text	   data	    bss	    dec	    hex	filename
+  73952	     12	    724	  74688	  123c0	isis-obc-first-project.elf
+Finished building: isis-obc-first-project.siz
+ 
+
+09:08:45 Build Finished. 0 errors, 0 warnings. (took 407ms)
+
